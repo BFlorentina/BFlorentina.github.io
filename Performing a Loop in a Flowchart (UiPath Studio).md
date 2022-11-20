@@ -1,7 +1,10 @@
 #Performing a Loop in a Flowchart
+
 Loops are generally used in UiPath Studio in complex scenarios where there is a need to repeat a set of instructions until a condition (or a set of conditions) is true. Further, we will exemplify a loop used in a Flowchart activity.
+
 ##Example
 In our example, we will ask the user to pick a number from 1 to n and we will display in the Output panel all the numbers smaller than n divisible by 2. After iterating through all these numbers, we will write their sum in the Output panel. To build this automation, follow the steps:
+
 1. On the Start tab, select New Project > Process. The New Blank Process window opens.
 2. In the Name field type “Performing a Loop in a Flowchart” and leave the default project location. Click Create. The Design tab is displayed.
 3. In the Ribbon menu, select New > Flowchart. The New Flowchart window opens. As you can see, the name and the location are inherited from the project. Click Create. A new Design Canvas is created in the Designer panel.
