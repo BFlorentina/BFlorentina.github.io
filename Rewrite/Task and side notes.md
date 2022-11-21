@@ -1,6 +1,6 @@
 My main objective in this exercise was to improve its clarity and readability of the following section with a task-oriented, topic-based writing and minimalistic approach in mind.
 
-[First Steps – Cyber Files Cloud User Guide (PDF version)] (main/rewrite/Original text.pdf)
+[First Steps – Cyber Files Cloud User Guide (PDF version)]([main/rewrite/Original text.pdf](https://github.com/BFlorentina/BFlorentina.github.io/blob/cf3c81b08fffb7d3ecf6c58a01117d91ce17e72e/Rewrite/Rewritten%20text.pdf))
 
 [PDF version of the final output](main/rewrite/Rewritten text.pdf)
 
