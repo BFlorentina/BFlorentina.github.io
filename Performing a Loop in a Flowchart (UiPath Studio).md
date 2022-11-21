@@ -9,7 +9,9 @@ In our example, we will ask the user to pick a number from 1 to n and we will di
 2. In the Name field type “Performing a Loop in a Flowchart” and leave the default project location. Click Create. The Design tab is displayed.
 3. In the Ribbon menu, select New > Flowchart. The New Flowchart window opens. As you can see, the name and the location are inherited from the project. Click Create. A new Design Canvas is created in the Designer panel.
 4. In the Activities panel, search for Input Dialog activity. To add it to the Designer panel, you can drag and drop it or double click on it. An Input Dialog is added to the Designer panel. Connect it to the Start node.
+
 > ***Note: To connect nodes in the Designer Panel, click one of the activities and drag it by holding down the mouse button to another activity until arrows appear around the target activity while hovering over it with the mouse. Drop it over the desired arrow.***
+
 5. In the Variables panel, create an Int32 variable named “PickNumber”.
 6. Select the Input Dialog and go to the Properties panel. In the Label field type “Please enter a number equal to or greater than 1”, in the Title field type "Data input" and in the Result field type “PickNumber”.
 7. Add a Flow Decision activity and connect it to the Input dialog activity.
@@ -33,3 +35,5 @@ In our example, we will ask the user to pick a number from 1 to n and we will di
 25. Add a Write Line activity and connect it to the False branch of Flow Decision 2.
 26. In the Properties panel of the new Write Line activity, in the DisplayName field type “Write Line 2” and in the Text field type “sum.ToString”. When the iteration of all numbers smaller than PickNumber and divisible by 2 stops, the Write Line 2 activity will print their sum calculated by Assign 2 activity.
 The following screenshot shows how the workflow should look in the end.
+
+![Flowchart](/main/images/Loop flowchart.jpg)
