@@ -36,4 +36,4 @@ In our example, we will ask the user to pick a number from 1 to n and we will di
 26. In the Properties panel of the new Write Line activity, in the DisplayName field type “Write Line 2” and in the Text field type “sum.ToString”. When the iteration of all numbers smaller than PickNumber and divisible by 2 stops, the Write Line 2 activity will print their sum calculated by Assign 2 activity.
 The following screenshot shows how the workflow should look in the end.
 
-![Flowchart](/main/images/Loop flowchart.jpg)
+![Flowchart](/images/Loop flowchart.jpg)
