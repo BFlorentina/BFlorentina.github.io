@@ -17,6 +17,7 @@ For faster data entry, you can specify a delivery class in the Delivery Classes 
 
 ## Prerequisites
 Before you start creating a delivery and a delivery plan, make sure the following settings are configured in the system and the necessary documents are created.
+
 | Form | Action | Notes |
 | --- | --- | --- |
 | Shipping Zones (CS207510) | Define the shipping zones which you will associate later with deliveries, sales orders and shipments. |  |
