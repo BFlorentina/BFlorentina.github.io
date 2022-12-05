@@ -18,7 +18,7 @@ For faster data entry, you can specify a delivery class in the Delivery Classes 
 ## Prerequisites
 Before you start creating a delivery and a delivery plan, make sure the following settings are configured in the system and the necessary documents are created.
 | Form | Action | Notes |
-|------|--------|-------|
+| --- | --- | --- |
 | Shipping Zones (CS207510) | Define the shipping zones which you will associate later with deliveries, sales orders and shipments. |  |
 | Domestic Carriers Preferences (DC101000) | Configure all the settings in the **Delivery Settings** section of the form. | If there are already planned deliveries in the system, we do not recommend to change the **Delivery Doc. Type** setting. The system does not support the use of mixed functionality, with part of planned deliveries on sales orders and part on shipments.<br>The documents table of the delivery planning form displays both sales orders and shipments if  **Delivery doc. type** is set to *Sales Order*, and  only shipments if **Delivery doc. type** is set to *Shipments*. |
 | Order Types (SO201000) | In the **General Settings** tab, **Order Settings** section, you must select the **Supports Delivery Planning** check box for all order types for which you want to use the delivery planning functionality. By default, the **Sales Order** type has this check box already selected. | |
