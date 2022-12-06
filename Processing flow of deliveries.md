@@ -101,7 +101,7 @@ For them do be displayed in the delivery planning form, they must fulfill the fo
 * Process Orders (SO501000)
 * Process Shipments (SO503000)
 
-  > **Note** In case you need to correct a shipment which is associated with a delivery planning, you must first click **Correct** in the associated delivery, and then open the shipment and click **Actions** > **Correct Shipment** in the form toolbar.
+   > **Note** In case you need to correct a shipment which is associated with a delivery planning, you must first click **Correct** in the associated delivery, and then open the shipment and click **Actions** > **Correct Shipment** in the form toolbar.
 
 7. The custom table, in the lower part of the delivery planning form, can be configured to display custom fields. For more information regarding the way custom fieldscan be added, see [Adding Custom Information to Delivery Planning](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
 
@@ -114,19 +114,20 @@ Below you will find methods of disassociating documents from deliveries, dependi
 > **Note** The **Allocate** button in the **Deliveries** table toolbar can also be used when a document needs to be deallocated from the delivery. The document must be deselected and the **Allocate** button clicked.
 
 * If you have a sales order associated with a delivery, with status *Confirmed* or *Shipped*:
- 1. Select the delivery.
- 2. Click **Correct** in the deliveries table toolbar.
- 3. Deselect the sales order, in the documents table.
- 4. Click **Save** in the form toolbar.
+
+1. Select the delivery.
+2. Click **Correct** in the deliveries table toolbar.
+3. Deselect the sales order, in the documents table.
+4. Click **Save** in the form toolbar.
 
 * If you have a sales order with confirmed shipment, associated with a delivery, with status *Confirmed* or *Shipped*:
- 1. Select the delivery.
- 2. Click **Correct** in the deliveries table toolbar.
- 3. Open the shipment, by clicking on its ID link.
- 4. On the shipment form, click **Actions** > **Correct Shipment** in the form toolbar.
- 5. Return to the delivery planning form, select the delivery and click **Correct** in the deliveries table toolbar. Observe that the shipment was automatically disassociated.
- 6. (Optional) If you want to further disassociate the sales order, open the shipment again and delete it. Then return to the delivery planning form, select the delivery and deselect the associated order. Alternatively, you can open the sales order, go to **Shipping Settings** tab, select the desired delivery in the table of deliveries and click **Delete Row** ![Delete Row](/images/delete button.JPG).
- 7. After you finish disassociating documents, click **Save** in the form toolbar.
+1. Select the delivery.
+2. Click **Correct** in the deliveries table toolbar.
+3. Open the shipment, by clicking on its ID link.
+4. On the shipment form, click **Actions** > **Correct Shipment** in the form toolbar.
+5. Return to the delivery planning form, select the delivery and click **Correct** in the deliveries table toolbar. Observe that the shipment was automatically disassociated.
+6. (Optional) If you want to further disassociate the sales order, open the shipment again and delete it. Then return to the delivery planning form, select the delivery and deselect the associated order. Alternatively, you can open the sales order, go to **Shipping Settings** tab, select the desired delivery in the table of deliveries and click **Delete Row** ![Delete Row](/images/delete button.JPG).
+7. After you finish disassociating documents, click **Save** in the form toolbar.
 
 > **Note** If an order associated with a delivery was cancelled in the meantime, it will still be displayed in the documents table and it can be disassociated by clicking **Correct**, as long as it is not associated with a shipment.
 
