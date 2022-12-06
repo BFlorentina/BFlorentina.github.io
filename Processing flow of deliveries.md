@@ -115,10 +115,10 @@ Below you will find methods of disassociating documents from deliveries, dependi
 
 * If you have a sales order associated with a delivery, with status *Confirmed* or *Shipped*:
 
-1. Select the delivery.
-2. Click **Correct** in the deliveries table toolbar.
-3. Deselect the sales order, in the documents table.
-4. Click **Save** in the form toolbar.
+  1. Select the delivery.
+  2. Click **Correct** in the deliveries table toolbar.
+  3. Deselect the sales order, in the documents table.
+  4. Click **Save** in the form toolbar.
 
 * If you have a sales order with confirmed shipment, associated with a delivery, with status *Confirmed* or *Shipped*:
 1. Select the delivery.
