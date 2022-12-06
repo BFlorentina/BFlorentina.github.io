@@ -30,7 +30,7 @@ Before you start creating a delivery and a delivery plan, make sure the followin
 3. In the **Description** box, type a description for the delivery.
 4. In the **Branch** box, select a branch.
 5. In the **Loading Date** box, select the date when the items are loaded in the vehicle.
-6. In the **General Settings** tab, add shipping zones in the **Shipping Zone** section. You can use either **Add Row** ![Add Row](/images/add-button.JPG) (to add zones one by one) or the **Add Shipping zones** button in the table toolbar (to add zones in bulk). 
+6. In the **General Settings** tab, add shipping zones in the **Shipping Zone** section. You can use either **Add Row** ![Add Row](/images/add button.JPG) (to add zones one by one) or the **Add Shipping zones** button in the table toolbar (to add zones in bulk). 
 
    > **Note** In the delivery planning, only sales orders, shipments and deliveries that share the same shipping zones are displayed.
  
