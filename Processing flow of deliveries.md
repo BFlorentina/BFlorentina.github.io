@@ -103,7 +103,7 @@ For them do be displayed in the delivery planning form, they must fulfill the fo
 
    > **Note** In case you need to correct a shipment which is associated with a delivery planning, you must first click **Correct** in the associated delivery, and then open the shipment and click **Actions** > **Correct Shipment** in the form toolbar.
 
-7. The custom table, in the lower part of the delivery planning form, can be configured to display custom fields. For more information regarding the way custom fieldscan be added, see [Adding Custom Information to Delivery Planning](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
+7. The custom table, in the lower part of the delivery planning form, can be configured to display custom fields. For more information regarding the way custom fieldscan be added, see [Adding Custom Information to Delivery Planning](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
 
 ## Disassociation of documents from deliveries
 
@@ -115,12 +115,13 @@ Below you will find methods of disassociating documents from deliveries, dependi
 
 * If you have a sales order associated with a delivery, with status *Confirmed* or *Shipped*:
 
-  1. Select the delivery.
-  2. Click **Correct** in the deliveries table toolbar.
-  3. Deselect the sales order, in the documents table.
-  4. Click **Save** in the form toolbar.
+1. Select the delivery.
+2. Click **Correct** in the deliveries table toolbar.
+3. Deselect the sales order, in the documents table.
+4. Click **Save** in the form toolbar.
 
 * If you have a sales order with confirmed shipment, associated with a delivery, with status *Confirmed* or *Shipped*:
+
 1. Select the delivery.
 2. Click **Correct** in the deliveries table toolbar.
 3. Open the shipment, by clicking on its ID link.
@@ -138,11 +139,11 @@ Below you will find methods of disassociating documents from deliveries, dependi
 4. Click **Save** in the form toolbar.
 
 ## Related Articles
-* [Adding Custom Information to Delivery Planning](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Domestic Carriers Preferences (DC101000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Deliveries (DC304000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Delivery Classes (DC203000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Delivery Planning (DC501000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Shipping Zones (CS207510)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Order Types (SO201000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
-* [Attributes (CS205000)](https://bflorentina.github.io/Rewrite/Processing%20flow%20of%deliveries)
+* [Adding Custom Information to Delivery Planning](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Domestic Carriers Preferences (DC101000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Deliveries (DC304000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Delivery Classes (DC203000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Delivery Planning (DC501000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Shipping Zones (CS207510)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Order Types (SO201000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
+* [Attributes (CS205000)](https://bflorentina.github.io/Processing%20flow%20of%20deliveries)
