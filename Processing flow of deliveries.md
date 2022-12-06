@@ -78,22 +78,22 @@ For them do be displayed in the delivery planning form, they must fulfill the fo
 - the one on the right represents the documents table
 - the bottom table is one where custom information can be added
 
-Depending on the setting of the **Delivery doc. type** field in the Domestic Carriers Preferences (DC101000) form there are two different types of documents that will be displayed in the **Documents** table:
+   Depending on the setting of the **Delivery doc. type** field in the Domestic Carriers Preferences (DC101000) form there are two different types of documents that will be displayed in the **Documents** table:
 
-   5. if the value is set to *Sales Order*, sales orders will be displayed in the **Documents** table. To associate a delivery with a document select the delivery and the sales order and click **Allocate** in the delivery table toolbar.
+   * if the value is set to *Sales Order*, sales orders will be displayed in the **Documents** table. To associate a delivery with a document select the delivery and the sales order and click **Allocate** in the delivery table toolbar.
 
-If the order has a shipment, that shipment will appear in the table if the *All Records* value is selected in the filter. Only the sales order can be associated with the delivery. When the shipment is confirmed, the delivery will also be associated with it.
+     If the order has a shipment, that shipment will appear in the table if the *All Records* value is selected in the filter. Only the sales order can be associated with the delivery. When the shipment is confirmed, the delivery will also be associated with it.
 
-> **Note** If the order has been shipped in full, until the delivery is confirmed, the Sales Order will not be visible in the grid, only the shipment. After the confirmation, both documents will appear.
+     > **Note** If the order has been shipped in full, until the delivery is confirmed, the Sales Order will not be visible in the grid, only the shipment. After the confirmation, both documents will appear.
 
-After all the documents have been allocated to the delivery, the delivery can be confirmed using the **Confirm** button in the table toolbar. Now you can click **Ship** in the delivery table toolbar.
+     After all the documents have been allocated to the delivery, the delivery can be confirmed using the **Confirm** button in the table toolbar. Now you can click **Ship** in the delivery table toolbar.
 
-  > **Warning** An order can be associated with multiple deliveries only if it supports Back Order, and the previous delivery has been confirmed.
+     > **Warning** An order can be associated with multiple deliveries only if it supports Back Order, and the previous delivery has been confirmed.
 
-   5. if the value is set to *Shipments*, shipments will be displayed in the **Documents** table. To associate a delivery with a document select the delivery and the shipment and click **Allocate** in the delivery table toolbar. After the shipment has been confirmed, the delivery can also be confirmed and it’s status set to *Shipped* by clicking **Confirm** and then **Ship** in the table toolbar.
+   * if the value is set to *Shipments*, shipments will be displayed in the **Documents** table. To associate a delivery with a document select the delivery and the shipment and click **Allocate** in the delivery table toolbar. After the shipment has been confirmed, the delivery can also be confirmed and it’s status set to *Shipped* by clicking **Confirm** and then **Ship** in the table toolbar.
 
-  > **Warning** A shipment cannot be planned on multiple deliveries.
-  > To change a delivery status to *Shipped*, the sales order associated must have a shipment associated and confirmed.
+     > **Warning** A shipment cannot be planned on multiple deliveries.
+     > To change a delivery status to *Shipped*, the sales order associated must have a shipment associated and confirmed.
 
 6. Optional: the deliveries that were associated with documents are also displayed in the following locations:
 * Sales Orders (SO301000) > Shipping Settings tab
@@ -114,19 +114,19 @@ Below you will find methods of disassociating documents from deliveries, dependi
 > **Note** The **Allocate** button in the **Deliveries** table toolbar can also be used when a document needs to be deallocated from the delivery. The document must be deselected and the **Allocate** button clicked.
 
 * If you have a sales order associated with a delivery, with status *Confirmed* or *Shipped*:
-  1. Select the delivery.
-  2. Click **Correct** in the deliveries table toolbar.
-  3. Deselect the sales order, in the documents table.
-  4. Click **Save** in the form toolbar.
+ 1. Select the delivery.
+ 2. Click **Correct** in the deliveries table toolbar.
+ 3. Deselect the sales order, in the documents table.
+ 4. Click **Save** in the form toolbar.
 
 * If you have a sales order with confirmed shipment, associated with a delivery, with status *Confirmed* or *Shipped*:
-  1. Select the delivery.
-  2. Click **Correct** in the deliveries table toolbar.
-  3. Open the shipment, by clicking on its ID link.
-  4. On the shipment form, click **Actions** > **Correct Shipment** in the form toolbar.
-  5. Return to the delivery planning form, select the delivery and click **Correct** in the deliveries table toolbar. Observe that the shipment was automatically disassociated.
-  6. (Optional) If you want to further disassociate the sales order, open the shipment again and delete it. Then return to the delivery planning form, select the delivery and deselect the associated order. Alternatively, you can open the sales order, go to **Shipping Settings** tab, select the desired delivery in the table of deliveries and click **Delete Row** ![Delete Row](/images/delete button.JPG).
-  7. After you finish disassociating documents, click **Save** in the form toolbar.
+ 1. Select the delivery.
+ 2. Click **Correct** in the deliveries table toolbar.
+ 3. Open the shipment, by clicking on its ID link.
+ 4. On the shipment form, click **Actions** > **Correct Shipment** in the form toolbar.
+ 5. Return to the delivery planning form, select the delivery and click **Correct** in the deliveries table toolbar. Observe that the shipment was automatically disassociated.
+ 6. (Optional) If you want to further disassociate the sales order, open the shipment again and delete it. Then return to the delivery planning form, select the delivery and deselect the associated order. Alternatively, you can open the sales order, go to **Shipping Settings** tab, select the desired delivery in the table of deliveries and click **Delete Row** ![Delete Row](/images/delete button.JPG).
+ 7. After you finish disassociating documents, click **Save** in the form toolbar.
 
 > **Note** If an order associated with a delivery was cancelled in the meantime, it will still be displayed in the documents table and it can be disassociated by clicking **Correct**, as long as it is not associated with a shipment.
 
